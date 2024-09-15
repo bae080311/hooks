@@ -1,6 +1,6 @@
 import { useRef } from "react";
 
-function App() {
+function useRefExample() {
   const input = useRef();
   setTimeout(() => console.log(input.current), 5000);
   return (
@@ -10,3 +10,5 @@ function App() {
     </div>
   );
 }
+
+export default useRefExample;
