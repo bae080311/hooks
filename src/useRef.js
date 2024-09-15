@@ -1,6 +1,6 @@
 import { useRef } from "react";
 
-function useClick() {
+function App() {
   const input = useRef();
   setTimeout(() => console.log(input.current), 5000);
   return (
